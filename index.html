@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <link rel="stylesheet" href="style/scss.css">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Скорая студенческая помощь</title>
+
+</head>
+<body>
+
+   <div class="row">
+      <div class="button">
+         <a href="#main" target="_self"><span>Главная</span></a>
+         <a href="videolessons.html" target="_blank"><span>Видеоуроки</span></a>
+         <a href="#teachers" target="_self"><span>Преподаватели</span></a>
+         <a href="tips.html" target="_blank"><span>Шпаргалка</span></a>
+         <a href="https://miro.com/app/board/uXjVPhRzZyk=/" target="_blank"><span>Навигация</span></a>
+         <a href="#about" target="_self"><span>О нас</span></a>
+      </div>
+   </div>
+   <div class="intro">
+      <div class="menu">
+         <div class="menu__logo">
+            
+         </div>
+         <div class="menu__description-title">Скорая студенческая помощь
+         </div>
+         <div class="menu__description-text">Сдавай работы вовремя!</div>
+         <a href="auth.html"><span>Вход</span></a>
+      </div>
+   </div>
+
+   <div class="main">
+      <span class="hi" id="main">Hello, world!</span>
+      <div class="hi__text">
+         <span class="hi__text_one">На этом сайте публикуются материалы, которые смогут помочь первокурснику при обучении на факультете Высоких технологий и пьезотехники.</span>
+         <span class="hi__text_two">Мы понимаем, что первое время тебе приходится нелегко, поэтому всеми силами стараемся помочь:) Если наши материалы тебе пригодились, можешь поблагодарить нас <a href="https://joydonat.ru/faststudentshelp" target="_blank">здесь.</a></span>
+      </div>
+      <div class="container">
+         <div class="container__item1">
+            <div class="container__item1_foto">
+               <img src="" alt="">
+            </div>
+            <div class="container__item1_title">Готовые видеоуроки</div>
+            <div class="container__item1_text">Получи скорую помощь в трудной ситуации. Избавься от стресса и тревоги из-за подгорающих сроков. Наши преподаватели все досконально объяснят.</div>
+            <div class="container__item1_button">
+               <a href="videolessons.html"><span>ПОДРОБНОСТИ</span></a>
+            </div>
+         </div>
+         <div class="container__item2">
+            <div class="container__item2_foto">
+               <img src="studentshelp/img/cheetsheet.jpg" alt="">
+            </div>
+            <div class="container__item2_title">Конспект по теме</div>
+            <div class="container__item2_text">У нас есть огромный справочник по всем предметам твоей программы: все, что нужно успешному студенту.</div>
+            <div class="container__item2_button">
+               <a href="tips.html"><span>ПОДРОБНОСТИ</span></a>
+            </div>
+         </div>
+         <div class="container__item3">
+            <div class="container__item3_foto">
+               <img src="studentshelp/img/teacher.jpg" alt="">
+            </div>
+            <div class="container__item3_title">Онлайн-помощь</div>
+            <div class="container__item3_text">Разберите ваше задание вместе с преподавателем в режиме реального времени. В будущем ты сможешь делать все быстро и безошибочно, а главное &mdash; самостоятельно!</div>
+            <div class="container__item3_button">
+               <a href="auth.html"><span>ПОДРОБНОСТИ</span></a>
+            </div>
+         </div>
+      </div>
+   </div>
+
+<!-- пишем слайдер -->
+   <div class="wrapper">
+      <h1 class="teachers__title" id="teachers">Наши преподаватели</h1>
+      <div class="swiper mySwiper">
+         <div class="swiper-wrapper">
+            <!-- cлайд 1 -->
+            <div class="swiper-slide">
+               <div class="wrap">
+                  <div class="slide__name">
+                     Макаров Андрей Леонидович
+                  </div>
+                  <div class="slide__description">
+                     Профессор, кандидат математических наук. Помогу с решением любого задания по высшей математике по приятной цене.
+                  </div>
+                  <a href="https://www.youtube.com/@hitman_math" class="slide__link" target="_blank"></a>
+                  <div class="slide__foto1">
+                  </div>
+               </div>
+            </div>
+            <!-- cлайд 2 -->
+            <div class="swiper-slide">
+               <div class="wrap">
+                  <div class="slide__name">
+                     Зотова Кира Олеговна 
+                  </div>
+                  <div class="slide__description">
+                     Помогаю студентам с формированием идей для создания своего веб-сайта. Подскажу, что нужно знать для того, чтобы запустить рабочий сайт, приносящий доход.
+                  </div>
+                  <a href="https://www.youtube.com/watch?v=hVGrGhPG8Og" class="slide__link" target="_blank"></a>
+                  <div class="slide__foto2">
+                  </div>
+               </div>
+            </div>
+            <!-- cлайд 3 -->
+            <div class="swiper-slide">
+               <div class="wrap">
+                  <div class="slide__name">
+                     Филатов Аркадий Степанович
+                  </div>
+                  <div class="slide__description">
+                     Думаете, что физика для гениев? Вовсе нет! Расскажу, как понять основы физики и научу решать практические задания.
+                  </div>
+                  <a href="https://www.youtube.com/@user-pt8mk4jl8g" class="slide__link" target="_blank"></a>
+                  <div class="slide__foto3">
+                  </div>
+               </div>
+            </div>
+            <!-- cлайд 4 -->
+            <div class="swiper-slide">
+               <div class="wrap">
+                  <div class="slide__name">
+                     Конев Алексей Николаевич
+                  </div>
+                  <div class="slide__description">
+                     Основы верстки для студентов ФВТ &mdash; лучшие друзья! Смогу помочь с любыми трудностями с написанием кода на HTML и CSS.
+                  </div>
+                  <a href="https://www.youtube.com/@FreelancerLifeStyle" class="slide__link" target="_blank"></a>
+                  <div class="slide__foto4">
+                  </div>
+               </div>
+            </div>
+            <!-- cлайд 5 -->
+            <div class="swiper-slide">
+               <div class="wrap">
+                  <div class="slide__name">
+                     Зарицкая Екатерина Платоновна
+                  </div>
+                  <div class="slide__description">
+                     Преподаватель по основам коммуникации. Объясню материал на пальцах и раскрою в тебе новые возможности!
+                  </div>
+                  <a href="https://www.youtube.com/watch?v=F6mo-MPveCI" class="slide__link" target="_blank"></a>
+                  <div class="slide__foto5">
+                  </div>
+               </div>
+            </div>
+            <!-- cлайд 6 -->
+            <div class="swiper-slide">
+               <div class="wrap">
+                  <div class="slide__name">
+                     Хромов Максим Матвеевич
+                  </div>
+                  <div class="slide__description">
+                     Быстро и качественно расскажу студентам о программировании на высокоуровневых языках. Вы увидите, что программировать сможет каждый!
+                  </div>
+                  <a href="https://www.youtube.com/@HowdyhoNet" class="slide__link" target="_blank"></a>
+                  <div class="slide__foto6">
+                  </div>
+               </div>
+            </div>
+            <!-- cлайд 7 -->
+            <div class="swiper-slide">
+               <div class="wrap">
+                  <div class="slide__name">
+                     Варламова Оксана Арсеньевна
+                  </div>
+                  <div class="slide__description">
+                     Психолог со стажем, помогу первокурсникам с возникшими трудностями на их жизненном пути. Бесплатные консультации и проработка психических проблем. Помните, что не нужно стесняться обращения к психологу за помощью.
+                  </div>
+                  <a href="https://www.youtube.com/@veronikastepanova1978." class="slide__link" target="_blank"></a>
+                  <div class="slide__foto7">
+                  </div>
+               </div>
+            </div>
+            <!-- cлайд 8 -->
+            <div class="swiper-slide">
+               <div class="wrap">
+                  <div class="slide__name">
+                     Ролль Григорий Николаевич
+                  </div>
+                  <div class="slide__description">
+                     Доцент кафедры физической культуры и спорта, тренер. Помогу тебе преобразить свое тело!
+                  </div>
+                  <a href="https://www.youtube.com/@ChloeTing" class="slide__link" target="_blank"></a>
+                  <div class="slide__foto8">
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- кнопки -->
+         <div class="swiper-button-prev"></div>
+         <div class="swiper-button-next"></div>
+         <!-- пагинация  -->
+         <div class="swiper-pagination"></div>
+      </div>
+   </div>
+   <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+   <script src="js/script.js"></script>
+   <!-- о нас -->
+   <div class="about" id="about">
+      <div class="text">
+         <div class="text__black">ABOUT US</div>
+      </div>
+      <div class="description-text">Мы &mdash; команда программистов, способных сделать твою учебную деятельность проще, а жизнь &mdash; ярче! Поиск нужных материалов на нашем сайте не займет много времени, зато сэкономит много сил. Мы работаем, чтобы ты отдыхал!</div>
+      <a target="_blank" href="https://joydonat.ru/faststudentshelp" class="button-link"><span>ПОДРОБНЕЕ</span></a>
+      <div class="photo"></div>
+   </div>
+
+   <div class="footer">
+      <div class="features">
+         <span class="footer__title">Услуги</span>
+            <a href="#main" target="_self"><span class="footer__item">Главная</span></a>
+            <a href="videolessons.html" target="_self"><span class="footer__item">Видеоуроки</span></a>
+            <a href="tips.html" target="_self"><span class="footer__item">Шпаргалка</span></a>
+            <a href="#teachers" target="_self"><span class="footer__item">Преподаватели</span></a>
+      </div>
+      <div class="features">
+         <span class="footer__title">FAQ</span>
+            <span class="footer__item">Сертификаты</span>
+            <span class="footer__item">Портфлио</span>
+            <span class="footer__item">Отзывы</span>
+      </div>
+      <div class="features">
+         <span class="footer__title">Контакты</span>
+            <div class="footer__item1">8 (800) 555-35-35</div>
+            <div class="footer__item2">Россия, г. Ростов-на-Дону, ул. Мильчакова, д. 10</div>
+            <div class="footer__item3">stud.help@example.com</div>
+            <div class="footer__item4">Телеграм-бот</div>
+      </div>
+      <div class="qr">
+      </div>
+   </div>
+   <script>
+      // собираем все якоря; устанавливаем время анимации и количество кадров
+      const anchors = [].slice.call(document.querySelectorAll('a[href*="#"]')),
+         animationTime = 300,
+         framesCount = 20;
+
+      anchors.forEach(function(item) {
+         // каждому якорю присваиваем обработчик события
+         item.addEventListener('click', function(e) {
+            // убираем стандартное поведение
+            e.preventDefault();
+    
+            // для каждого якоря берем соответствующий ему элемент и определяем его координату Y
+            let coordY = document.querySelector(item.getAttribute('href')).getBoundingClientRect().top + window.pageYOffset;
+    
+            // запускаем интервал, в котором
+            let scroller = setInterval(function() {
+               // считаем на сколько скроллить за 1 такт
+               let scrollBy = coordY / framesCount;
+      
+               // если к-во пикселей для скролла за 1 такт больше расстояния до элемента
+               // и дно страницы не достигнуто
+               if(scrollBy > window.pageYOffset - coordY && window.innerHeight + window.pageYOffset < document.body.offsetHeight) {
+                  // то скроллим на к-во пикселей, которое соответствует одному такту
+                  window.scrollBy(0, scrollBy);
+               } else {
+                  // иначе добираемся до элемента и выходим из интервала
+                  window.scrollTo(0, coordY);
+                  clearInterval(scroller);
+               }
+            // время интервала равняется частному от времени анимации и к-ва кадров
+            }, animationTime / framesCount);
+         });
+      });
+   </script>
+</body>
+</html>
